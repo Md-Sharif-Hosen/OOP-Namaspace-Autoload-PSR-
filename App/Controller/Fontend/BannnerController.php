@@ -6,3 +6,7 @@ class BannnerController{
     echo "<br> <br>BannnerController controller";
  }
 }
+const TESTCONST="<br>sharif";
+function show_name(){
+    echo "<br>this is Sharif".TESTCONST;
+}
